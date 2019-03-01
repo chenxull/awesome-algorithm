@@ -42,7 +42,7 @@ public class Solution {
         }
 
         while (pNode.next != null) {
-            if (pNode.next.left == pNode) {
+            if (pNode.next.right == pNode) {
                 return pNode.next;
             }
             pNode = pNode.next;
